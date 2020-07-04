@@ -1,6 +1,7 @@
 package com.seanroshan.booglemaps.repository;
 
 import com.seanroshan.booglemaps.entity.Address;
+import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -10,7 +11,7 @@ import java.util.stream.Collectors;
 /**
  * Implements a mock repository for generating a random address.
  */
-@SuppressWarnings("SpellCheckingInspection")
+@Repository
 public class MockAddressRepository {
 
     /**
@@ -45,6 +46,7 @@ public class MockAddressRepository {
     /**
      * An array of random addresses for use in getRandom()
      */
+    @SuppressWarnings("SpellCheckingInspection")
     private static final String[] ADDRESSES = {
             "777 Brockton Avenue, Abington MA 2351",
             "30 Memorial Drive, Avon MA 2322",

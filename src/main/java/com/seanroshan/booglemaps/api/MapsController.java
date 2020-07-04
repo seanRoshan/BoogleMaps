@@ -1,4 +1,4 @@
-package com.seanroshan.booglemaps.controller;
+package com.seanroshan.booglemaps.api;
 
 import com.seanroshan.booglemaps.entity.Address;
 import com.seanroshan.booglemaps.repository.MockAddressRepository;
